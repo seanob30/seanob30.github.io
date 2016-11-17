@@ -1,0 +1,130 @@
+body {
+	background-color:white;
+	opacity:0.8;
+
+}
+
+h1 {
+  font-size:96px;
+  color:#333333;
+}
+
+h5 {
+  font-size:46px;
+}
+ .navbar-brand {
+    height: 80px;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+.nav >li >a {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+#footer {
+  height:300px;
+}
+
+
+.box {
+  background:#fff;
+  transition:all 0.2s ease;
+  border:2px dashed #dadada;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-clip: padding-box;
+  padding:0 20px 20px 20px;
+  min-height:340px;
+}
+
+.box:hover {
+  border:2px solid #525C7A;
+}
+
+.box span.box-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.box .box-content {
+  padding: 16px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.box .box-content p {
+  color:#515c66;
+  text-transform:none;
+}
+
+.first-box{padding:10px;background:#9C0;}
+.second-box{padding:10px; background:#39F;}
+.third-box{padding:10px;background:#F66;}
+.fourth-box{padding:10px;background:#6CC;}
+
+h4{
+    text-size:30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.amount{
+display: inline;
+}
+
+#pay{
+  margin-top: 10px;
+}
+
+.form-control, .btn{
+    border-radius: 0;
+
+.standard-button{
+ // background-color: #eebe25;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 0;
+  border:none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 16em;
+  font-weight: 600;
+  &:hover, &:active{
+    // background-color: #616dab;
+    background-color: #4b6a7e;
+    color: white;
+  }
+
+}
+
+.btn-anim{
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+
+.btn-anim:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+

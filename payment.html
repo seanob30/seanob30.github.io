@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saber</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="payment.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default" style="background-color:#FFFaFa;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+     <center><a class="navbar-brand"  href="home.html"></center>
+    <img src="s-logo.png" width="42" height="64" class="center" alt="">
+  </a>
+    </div>
+
+  </div>
+</nav>
+</nav>
+
+<br>
+<br>
+
+ <!--<div class="modal fade" id="client-pay-modal" tabindex="-1" role="dialog" aria-labelledby="call-modal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+          <h4 class="modal-title my-modal-label">Please enter your payment information below</h4>
+        </div>-->
+        <!--<div class="modal-body">-->
+          <div class="container">
+            <div class='row'>
+                <div class="col-md-12"><h4 class="modal-title my-modal-label">Please enter your payment information below</h4></div>
+                  <div class='col-md-4 col-xs-2'></div>
+                  <div class='col-md-4 col-xs-8'>
+                    <script src='https://js.stripe.com/v2/' type='text/javascript'></script>
+                    <form accept-charset="UTF-8" action="/" class="require-validation" data-cc-on-file="false" data-stripe-publishable-key="pk_bQQaTxnaZlzv4FnnuZ28LFHccVSaj" id="payment-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓" /><input name="_method" type="hidden" value="PUT" /><input name="authenticity_token" type="hidden" value="qLZ9cScer7ZxqulsUWazw4x3cSEzv899SP/7ThPCOV8=" /></div>
+                      <div class='form-row'>
+                        <div class='col-xs-12 form-group required'>
+                          <label class='control-label'>Name on Card</label>
+                          <input class='form-control' size='4' type='text'>
+                        </div>
+                      </div>
+                      <div class='form-row'>
+                        <div class='col-xs-12 form-group card required'>
+                          <label class='control-label'>Card Number</label>
+                          <input autocomplete='off' class='form-control card-number' size='20' type='text'>
+                        </div>
+                      </div>
+                      <div class='form-row'>
+                        <div class='col-xs-4 form-group cvc required'>
+                          <label class='control-label'>CVC</label>
+                          <input autocomplete='off' class='form-control card-cvc' placeholder='ex. 311' size='4' type='text'>
+                        </div>
+                        <div class='col-xs-4 form-group expiration required'>
+                          <label class='control-label'>Month</label>
+                          <input class='form-control card-expiry-month' placeholder='MM' size='2' type='text'>
+                        </div>
+                        <div class='col-xs-4 form-group expiration required'>
+                          <label class='control-label'>Year</label>
+                          <input class='form-control card-expiry-year' placeholder='YYYY' size='4' type='text'>
+                        </div>
+                      </div>
+                      <div class='form-row'>
+                        <div class='col-md-12'>
+                          <div class='form-control total btn btn-info standard-button'>
+                            Total:
+                            <span class='amount'>$1,000,000</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class='form-row'>
+                        <div class='col-md-12 form-group'>
+                          <button class='form-control btn btn-primary submit-button standard-button' type='submit' id="pay">Pay</button>
+                        </div>
+                      </div>
+                      <div class='form-row'>
+                        <div class='col-md-12 error form-group hide'>
+                          <div class='alert-danger alert'>
+                            Please correct the errors and try again.
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class='col-md-4 col-xs-2'></div>
+            </div>
+          </div>
+        </div> <!--end modal-body-->
+      </div>
+    </div>
+  </div> 
+
+
+
+</body>
+</html>
