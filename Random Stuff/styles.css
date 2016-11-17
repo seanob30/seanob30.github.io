@@ -1,0 +1,63 @@
+body {
+	background-color:linen;
+	opacity:0.75;
+
+}
+
+h1 {
+	color:orange;
+	font-size:72px;
+	margin-left:30px;
+	
+
+}
+
+h2 {
+	color:tan;
+	font-size:60px;
+	margin-left:36px;
+	
+
+}
+
+h3 {
+	color:crimson;
+	font-family:serif;
+	margin-left:48px;
+	
+
+}
+
+h4 {
+	color:coral;
+	font-size:36px;
+	margin-left:12px;
+	
+
+}
+
+h5 {
+	color:red;
+	font-size:30px;
+	margin-left:10px;
+	
+
+}
+
+h6 {
+	color:cyan;
+	font-size:30px;
+	margin-left:8px;
+
+}
+
+.boldClass {
+	font-weight:bold;
+
+}
+#bigID {
+	font-size: 32px;
+	font-family:serif;
+
+}
+
